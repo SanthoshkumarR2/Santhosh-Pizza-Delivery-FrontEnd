@@ -19,7 +19,7 @@ function AdminLogin() {
 
   useEffect(() => {
     if (localStorage.getItem("currentUser")) {
-      window.location.href = "/admin";
+      window.location.href = "/";
     }
   }, []);
 

@@ -1,5 +1,6 @@
 
-export const host = "https://santhosh-pizza-delivery-backend.onrender.com";
+// export const host = "https://santhosh-pizza-delivery-backend.onrender.com";
+export const host = "http://localhost:3001";
 
 export const getPizzaData = `${host}/api/pizzas/getAllPizzas`;
 export const addNewPizza = `${host}/api/pizzas/addpizza`;

@@ -11,7 +11,7 @@ const AdminPage = ({history}) => {
 
   useEffect(() => {
     if (localStorage.getItem("currentUser") === null || !currentUser.isAdmin) {
-      window.location.href = "/";
+      window.location.href = "/admin";
     }
   }, [currentUser]);
   return (
